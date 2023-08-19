@@ -1,4 +1,4 @@
-tensorflow==2.13.0-rc0
+tensorflow==2.11.0rc1
 fastapi
 uvicorn
 python-multipart
