@@ -22,10 +22,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("../saved_models/1")
+MODEL = tf.keras.models.load_model("./saved_models/1")
 CLASS_NAMES = ["Early blight", "Late blight", "Healthy"]
 
-MODELT = tf.keras.models.load_model("../../tomato-Disease-classification/saved_models/version-2")
+MODELT = tf.keras.models.load_model("./saved_models/version-2")
 CLASS_NAMEST = ['Tomato_Bacterial_spot',
  'Tomato_Early_blight',
  'Tomato_Late_blight',
