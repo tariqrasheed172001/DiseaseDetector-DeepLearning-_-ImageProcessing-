@@ -12,6 +12,8 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",  # Update with your frontend URL
+    "http://localhost:3001",  # Update with your frontend URL
+    "https://diseas-detector-ui.vercel.app",
 ]
 
 app.add_middleware(
